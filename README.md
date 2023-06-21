@@ -33,3 +33,13 @@ go get github.com/mattn/go-sqlite3
 ```sh
 sudo go run pingalivedb.go <IP address or URL>
 ```
+
+# How to compile
+
+```sh
+go build -x pingalivedb.go
+```
+
+```sh
+sudo ./pingalivedb <IP address or URL>
+```
